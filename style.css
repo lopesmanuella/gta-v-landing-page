@@ -34,3 +34,38 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
+
+/*Animação tela inicial*/
+.hero{
+height: 100vh;
+background-image: url("fotos/gtafundo.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+animation: zoomHero 8s ease-in-out infinite alternate;
+}
+
+@keyframes zoomHero{
+from{
+background-size: 100%;
+}
+to{
+background-size: 110%;
+}
+}
+
+/*Zoom passando o mouse*/
+.cards img{
+width: 100%;
+height: 350px;
+object-fit: cover;
+object-position: top;
+border-radius: 10px;
+
+transition: transform 0.3s ease;
+}
+
+.cards img:hover{
+transform: scale(1.05);
+}
