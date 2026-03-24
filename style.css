@@ -145,3 +145,11 @@ font-size: 14px;
 .footer p{
 margin: 5px 0;
 }
+
+.sobre-img{
+    transition: 0.3s ;
+}
+
+.sobre-img:hover{
+    transform: scale(1.05);
+}
