@@ -1,5 +1,6 @@
 body{
 margin: 0;
+font-family: 'Trebuchet MS', sans-serif;
 }
 
 /* HERO */
@@ -153,3 +154,4 @@ margin: 5px 0;
 .sobre-img:hover{
     transform: scale(1.05);
 }
+
